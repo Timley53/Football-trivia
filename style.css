@@ -307,6 +307,7 @@ body {
 @media all and (max-width: 650px) {
   .modal {
     width: 85%;
+    overflow-y: scroll;
   }
   .container {
     margin: 0;

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./script.js"></script>
+    <script defer src="./questions.js"></script>
+    <title>Football-Trivia</title>
+  </head>
+  <body>
+    <div class="overlay">
+      <div class="modal">
+        <h2>Welcome to Football Trivia</h2>
+        <!--  -->
+        <div class="ml-1 ml">
+          <i class="fa-solid fa-circle-check"></i>
+          <p>
+            Would you like to test your Knowledge of the EPL history from the
+            past 10 Years?
+          </p>
+        </div>
+        <!--  -->
+        <div class="ml-1 ml">
+          <i class="fa-solid fa-circle-check"></i>
+          <p>
+            You will be asked questions about the English Premier League, Click
+            on the →❔ to get your question
+          </p>
+        </div>
+
+        <!--  -->
+
+        <!--  -->
+        <!-- <div class="ml-1 ml">
+          <i class="fa-solid fa-circle-check"></i>
+          <p>
+            I do not want to sound too serious so i'll like to inform you of
+            this as subtle as possible so
+          </p>
+        </div> -->
+        <!--  -->
+        <div class="ml-1 ml">
+          <i class="fa-solid fa-circle-check"></i>
+
+          <p>
+            When you get stuck you have a one-time life saver , Click ⚡ to
+            automatically win a bonus point and move to another question
+          </p>
+        </div>
+        <!--  -->
+        <div class="ml-1 ml">
+          <i class="fa-solid fa-circle-check"></i>
+
+          <p>
+            The timer begins counting once your question appears. You will be
+            presented with 4 options, one of which is the correct answer to each
+            question
+          </p>
+        </div>
+
+        <!-- 
+
+         -->
+
+        <div class="ml-1 ml">
+          <i class="fa-solid fa-circle-check"></i>
+          <p>
+            I do not want to sound too serious so i'll like to inform you of
+            this as subtle as possible so
+          </p>
+        </div>
+        <h3>
+          "ONLY CLICK ON THE BUTTON WHEN YOU ARE FULLY READY FOR THE
+          QUESTIONS💀💀" -- <small>No pressure</small>
+        </h3>
+
+        <!--  -->
+        <div class="ml-1 ml">
+          <i class="fa-solid fa-circle-check"></i>
+
+          <p>You have 30 seconds to answer each question, PLAY AND ENJOY!</p>
+        </div>
+
+        <button class="start-btn">Start</button>
+      </div>
+      <!-- 
+
+
+        
+       -->
+    </div>
+    <!-- 
+
+
+
+  
+ -->
+    <div class="container">
+      <span class="hiScore">Highscore: 0</span>
+
+      <div class="timerDisplay">00:00</div>
+      <!-- 
+      <div class="correct none">Correct ✅</div>
+      <div class="wrong none">
+        Wrong ❌ <span class="correctDisplay"></span>
+      </div> -->
+
+      <div class="gameOver none">
+        <h3>Game over ⌛</h3>
+
+        <p>Score: <span class="over-score">0</span></p>
+
+        <button class="restart">Restart</button>
+      </div>
+
+      <div class="bal">
+        <i class="fa-regular roling-bal fa-futbol none" id=""></i>
+      </div>
+
+      <!-- <hr class="line" /> -->
+
+      <div class="score">0</div>
+      <div class="image"></div>
+      <div class="questions"></div>
+
+      <div class="usage-error">You have used up your one chance</div>
+
+      <div class="opt-vis">
+        <div class="vis">
+          <img src="" alt="" class="visual-question none" />
+        </div>
+        <!-- text-opt -->
+        <div class="options text-opt">
+          <button class="opt-1 opt" data-opt="1">opt-1</button>
+          <button class="opt-2 opt" data-opt="2">opt-2</button>
+          <button class="opt-3 opt" data-opt="3">opt-3</button>
+          <button class="opt-4 opt" data-opt="4">opt-4</button>
+        </div>
+      </div>
+
+      <div class="start-nxt">
+        <button class="one-chace">⚡</button>
+
+        <div class="correct c-w none">Correct ✅</div>
+        <div class="wrong c-w none">
+          Wrong ❌ <span class="correctDisplay"></span>
+        </div>
+        <button class="nxt-question">→❔</button>
+      </div>
+      <!-- <div class="times-up none">Times Up ⌛</div> -->
+    </div>
+  </body>
+</html>
